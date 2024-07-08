@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nxt-trendz-ecommerce/static/css/main.b9eb3021.css",
+    "main.js": "/nxt-trendz-ecommerce/static/js/main.13f6b178.js",
+    "static/js/787.155f4c01.chunk.js": "/nxt-trendz-ecommerce/static/js/787.155f4c01.chunk.js",
+    "index.html": "/nxt-trendz-ecommerce/index.html",
+    "main.b9eb3021.css.map": "/nxt-trendz-ecommerce/static/css/main.b9eb3021.css.map",
+    "main.13f6b178.js.map": "/nxt-trendz-ecommerce/static/js/main.13f6b178.js.map",
+    "787.155f4c01.chunk.js.map": "/nxt-trendz-ecommerce/static/js/787.155f4c01.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9eb3021.css",
+    "static/js/main.13f6b178.js"
+  ]
+}
