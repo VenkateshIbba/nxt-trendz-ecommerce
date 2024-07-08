@@ -1,0 +1,25 @@
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+.payment-text {
+    margin: 0;
+}
+.payment-para-text {
+    margin: 0;
+}
+.payment-home-btn {
+    background-color: #0b69ff;
+    border: 0;
+    outline: none;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 16px;
+}

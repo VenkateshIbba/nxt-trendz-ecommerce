@@ -1,0 +1,60 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto';
+    padding: 10px;
+}
+.sm-home-banner {
+    width: 300px;
+}
+.home-para-text {
+    max-width: 90%;
+    color: #64748b;
+}
+.shop-now-btn {
+    background-color: #0967d2;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 80px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.lg-home-banner {
+    display: none;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .lg-home-banner {
+        display: block;
+        width: 45%;
+    }
+    .sm-home-banner {
+        display: none;
+    }
+    .home-container {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        text-align: start;
+        padding: 10px 30px;
+    }
+    .home-clothes-text {
+        max-width: 65%;
+    }
+    .home-para-text {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .home-clothes-text {
+        max-width: 50%;
+    }
+}

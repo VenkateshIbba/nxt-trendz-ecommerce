@@ -1,0 +1,44 @@
+.product-image {
+    width: 230px;
+    border-radius: 5px;
+}
+.cost-rating-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cost-rating-btn {
+    background-color: #0b69ff;
+    border: 0;
+    outline: none;
+    padding: 5px 15px;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.prime-li-style {
+    margin: 10px;
+}
+.title-text {
+    margin: 0;
+    font-size: 20px;
+}
+.brand-text {
+    color: #64748b;
+}
+.price-style {
+    font-weight: bold;
+}
+.product-link-style {
+    text-decoration: none;
+    color: #222222;
+}
+
+@media screen and (min-width: 1024px) {
+    .product-image {
+        width: 260px;
+    }
+}

@@ -1,0 +1,18 @@
+.prime-products-container {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.prime-banner-image {
+    width: 100%;
+}
+.main-prime-details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
